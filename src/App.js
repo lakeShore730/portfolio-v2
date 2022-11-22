@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import useWindowScroll from "./hooks/use-window-scroll";
+import cn from "classnames";
+import Home from "./pages";
+import Header from "./components/header/header";
 
 function App() {
+  const [, scrollY] = useWindowScroll();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header
+        className={cn("fixed w-full top-0 z-10", {
+          "transition-all duration-300 shadow text-primary bg-white": scrollY,
+          "pt-[20px] text-white": !scrollY,
+        })}
+      />
+      <Home />
+    </>
   );
 }
 
