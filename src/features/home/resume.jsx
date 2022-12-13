@@ -5,48 +5,49 @@ import ExperienceLoader from "../../components/experience-loader/experience-load
 const education = [
   {
     id: 1,
-    title: "University of Minnesota Twin Cities",
-    duration: "2006 - 2007",
+    title: "Georgia Institute of Technology",
+    duration: "2022- Currently Attedning (Part-time)",
     description:
-      "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "Masters of Science in Cybersecurity",
   },
   {
     id: 2,
-    title: "University of Minnesota Twin Cities",
-    duration: "2006 - 2007",
+    title: "University of St Thomas",
+    duration: "2015-2019",
     description:
-      "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "Bachelors of Arts in Finance with a Minor in Computer Science",
   },
   {
     id: 3,
-    title: "University of Minnesota Twin Cities",
-    duration: "2006 - 2007",
+    title: "Eden Prairie High School",
+    duration: "2011-2015",
     description:
-      "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "High School Diploma",
   },
+
 ];
 
 const experience = [
   {
     id: 1,
-    title: "University of Minnesota Twin Cities",
-    duration: "2006 - 2007",
+    title: "UnitedHealthCare",
+    duration: "Business Analyst (06-2022 - current)",
     description:
-      "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "Track, and deliver key quality success measures related to accuracy and timeliness of communications projects flowing through the platform/team."
   },
   {
     id: 2,
-    title: "University of Minnesota Twin Cities",
-    duration: "2006 - 2007",
-    description:
-      "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+    title: "PricewaterhouseCoopers",
+    duration: "Digital Risk Associate (08-2019 - 06-2022)",
+    descriptions:
+      "Perform planning, evidence gathering, testing, documentation, and review on IT general controls and business process reviews."
   },
   {
     id: 3,
-    title: "University of Minnesota Twin Cities",
-    duration: "2006 - 2007",
+    title: "FullStack Developer",
+    duration: "Software developer (05-2020 - current)",
     description:
-      "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "Work on frontend and backend development for projects at Lakeshore LLC."
   },
 ];
 
@@ -56,11 +57,7 @@ const Resume = ({ className = "" }) => {
       <h1 className="title">Resume</h1>
 
       <p className="mt-[32px] max-w-[900px] leading-8 tracking-wide font-normal text-gray-600">
-        Lorem ipsum dolor sit amet, communication adipisicing elit, helpful
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud sence of humour ullamco laboris nisi ut
-        honest ea commodo consequat. Duis aute irure dolor in upper-intermediate
-        english level velit dolore eu ivivdtevoluptatem ontend developer.
+      Technical Skills : JavaScript, Tablueau, PowerBI, Python, Express, Pandas, MySQL, Heroku
       </p>
 
       <div className="mt-[48px]">
@@ -79,12 +76,12 @@ const Resume = ({ className = "" }) => {
         </p>
 
         <div className="mt-[48px] grid grid-cols-1 md:grid-cols-2 gap-y-[24px] gap-x-[100px]">
-          <ExperienceLoader title="HTML" level={95} />
-          <ExperienceLoader title="CSS" level={85} />
+          <ExperienceLoader title="HTML" level={70} />
+          <ExperienceLoader title="CSS" level={80} />
           <ExperienceLoader title="React" level={70} />
-          <ExperienceLoader title="Django" level={90} />
-          <ExperienceLoader title="Fast API" level={90} />
-          <ExperienceLoader title="Tailwind CSS" level={95} />
+          <ExperienceLoader title="Django" level={80} />
+          <ExperienceLoader title="Fast API" level={70} />
+          <ExperienceLoader title="Tailwind CSS" level={70} />
         </div>
       </div>
     </div>

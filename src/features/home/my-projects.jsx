@@ -14,9 +14,9 @@ const projects = [
     },
     image: [restroxImg],
     shortDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vehicula nibh, id ultricies mi rutrum faucibus. Fusce lacinia lacus sapien, at finibus leo pharetra at. Morbi a mauris metus. ",
+      "RestroX is not just a POS system. It is an ultimate restaurant operating system gathered with high-end features compacted all in one app.",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vehicula nibh, id ultricies mi rutrum faucibus. Fusce lacinia lacus sapien, at finibus leo pharetra at. Morbi a mauris metus. Duis ante purus, consectetur sit amet malesuada vitae, vestibulum et massa. Aenean finibus, magna sit amet aliquet pharetra, leo leo suscipit mauris, vel interdum ante mauris vel libero. Proin porttitor sapien odio, ac porttitor nisi vestibulum nec. Integer sit amet ligula finibus, rutrum nunc id, maximus lacus. Aenean volutpat, ante vitae convallis rhoncus, nulla mauris sodales nisi, ac volutpat erat massa ut nulla. ",
+      "RestroX is not just a POS system. It is an ultimate restaurant operating system gathered with high-end features compacted all in one app. ",
   },
 
   {
@@ -35,9 +35,29 @@ const projects = [
     },
     image: [bookLifterImg],
     shortDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vehicula nibh, id ultricies mi rutrum faucibus. Fusce lacinia lacus sapien, at finibus leo pharetra at. Morbi a mauris metus. ",
+      "Book Lifter, a web application, makes it easier for users to purchase and borrow books from sellers and librarians. Here a user can get a library membership to ultimate access to all the books available on the library.",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vehicula nibh, id ultricies mi rutrum faucibus. Fusce lacinia lacus sapien, at finibus leo pharetra at. Morbi a mauris metus. Duis ante purus, consectetur sit amet malesuada vitae, vestibulum et massa. Aenean finibus, magna sit amet aliquet pharetra, leo leo suscipit mauris, vel interdum ante mauris vel libero. Proin porttitor sapien odio, ac porttitor nisi vestibulum nec. Integer sit amet ligula finibus, rutrum nunc id, maximus lacus. Aenean volutpat, ante vitae convallis rhoncus, nulla mauris sodales nisi, ac volutpat erat massa ut nulla. ",
+      "Book Lifter, a web application, makes it easier for users to purchase and borrow books from sellers and librarians. Here a user can get a library membership to ultimate access to all the books available on the library.",
+  },
+  {
+    id: "3",
+    name: "Maya Museum",
+    usedStacks: [
+      "React",
+      "Typescript",
+      "Tailwind CSS",
+      "Headless UI",
+      "Slider",
+    ],
+    link: {
+      name: "www.mayamuseum.com",
+      url: "https://maya-museum.vercel.app/",
+    },
+    image: [bookLifterImg],
+    shortDescription:
+      "Maya museum, made using React JS, which gives users to buy traditional statues, paintings, and sculptures.",
+    description:
+      "Maya museum, made using React JS, which gives users to buy traditional statues, paintings, and sculptures.",
   },
 ];
 
