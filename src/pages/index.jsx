@@ -21,25 +21,23 @@ const Home = () => {
 
           <div className="grow text-white">
             <h1 className="text-[32px] md:text-[42px] font-semibold">
-              Bishnu Thapa
+              Jay Neupane
             </h1>
             <p className="font-medium">
-              full stack developer, machine learning expert
+              IT Consultant, Software Developer, Business Analyst
             </p>
 
             <div className="flex gap-4 mt-[38px]">
               <div className="flex flex-col gap-3 font-semibold text-gray-200">
-                <p>AGE:</p>
                 <p>PHONE:</p>
                 <p>EMAIL:</p>
                 <p>ADDRESS:</p>
               </div>
 
               <div className="flex flex-col gap-3 font-medium">
-                <p>24</p>
-                <p>+977 9806131392</p>
-                <p>bishnuthapa1820@gmail.com</p>
-                <p>Pokhara, Nepal</p>
+                <p>+1 6128052852</p>
+                <p>jaybn730@gmail.com</p>
+                <p>Minneapolis, Minnesota</p>
               </div>
             </div>
 

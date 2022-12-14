@@ -6,10 +6,7 @@ const About = ({ className = "" }) => {
     <div className={cn(className)}>
       <h1 className="title">Hi</h1>
       <p className="mt-[32px] max-w-[900px] leading-8 tracking-wide font-normal text-gray-600">
-        Experience and creative full-stack developer with +1.5 years' background
-        in web development. Highly motivated BIT graduate with good knowledge
-        and experience in web development. Passionate about building responsive
-        web design using various frameworks.
+      I am a Business and IT professional with +3 years of experience in IT Auditing, and business analysis. Full-stack developer with +3 years background in web development. Highly motivated with knowledge and experience in IT , and software development. Passionate about working with new technologies and building responsive web designs using various frontend and backend frameworks.
       </p>
 
       <button

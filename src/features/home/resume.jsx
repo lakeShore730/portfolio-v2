@@ -72,11 +72,8 @@ const Resume = ({ className = "" }) => {
       <h1 className="title">Resume</h1>
 
       <p className="mt-[32px] max-w-[900px] leading-8 tracking-wide font-normal text-gray-600">
-        Lorem ipsum dolor sit amet, communication adipisicing elit, helpful
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud sence of humour ullamco laboris nisi ut
-        honest ea commodo consequat. Duis aute irure dolor in upper-intermediate
-        english level velit dolore eu ivivdtevoluptatem ontend developer.
+        Technical Skills : JavaScript, Tablueau, PowerBI, Python, Express,
+        Pandas, MySQL, Heroku
       </p>
 
       <div className="mt-[48px]">
@@ -95,12 +92,12 @@ const Resume = ({ className = "" }) => {
         </p>
 
         <div className="mt-[48px] grid grid-cols-1 md:grid-cols-2 gap-y-[24px] gap-x-[100px]">
-          <ExperienceLoader title="HTML" level={95} />
-          <ExperienceLoader title="CSS" level={85} />
+          <ExperienceLoader title="HTML" level={70} />
+          <ExperienceLoader title="CSS" level={80} />
           <ExperienceLoader title="React" level={70} />
-          <ExperienceLoader title="Django" level={90} />
-          <ExperienceLoader title="Fast API" level={90} />
-          <ExperienceLoader title="Tailwind CSS" level={95} />
+          <ExperienceLoader title="Django" level={80} />
+          <ExperienceLoader title="Fast API" level={70} />
+          <ExperienceLoader title="Tailwind CSS" level={70} />
         </div>
       </div>
     </div>
