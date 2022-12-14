@@ -15,7 +15,7 @@ const Home = () => {
             <img
               src={myImage}
               alt="landing-i"
-              className="absolute w-full aspect-[1/1.2] rounded-[4px] object-cover"
+              className="absolute w-full aspect-[1/1.1] rounded-[4px] object-cover"
             />
           </div>
 
