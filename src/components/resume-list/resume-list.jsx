@@ -17,9 +17,16 @@ const ResumeList = ({ data = [], className = "", ...others }) => {
               {item.duration}
             </p>
 
-            <p className="mt-[20px] max-w-[680px] leading-7 text-gray-600">
-              {item.description}
-            </p>
+            <div className="mt-[20px]">
+              {item?.descriptionList.map((descItem, i) => (
+                <p
+                  key={i}
+                  className="mt-[12px] max-w-[680px] leading-7 text-gray-600"
+                >
+                  {descItem}
+                </p>
+              ))}
+            </div>
           </div>
         </div>
       ))}

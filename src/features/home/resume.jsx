@@ -7,22 +7,30 @@ const education = [
     id: 1,
     title: "University of Minnesota Twin Cities",
     duration: "2006 - 2007",
-    description:
+    descriptionList: [
       "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+    ],
   },
+
   {
     id: 2,
     title: "University of Minnesota Twin Cities",
     duration: "2006 - 2007",
-    description:
+    descriptionList: [
       "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+    ],
   },
+
   {
     id: 3,
     title: "University of Minnesota Twin Cities",
     duration: "2006 - 2007",
-    description:
+    descriptionList: [
       "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+    ],
   },
 ];
 
@@ -31,22 +39,30 @@ const experience = [
     id: 1,
     title: "University of Minnesota Twin Cities",
     duration: "2006 - 2007",
-    description:
+    descriptionList: [
       "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+    ],
   },
+
   {
     id: 2,
     title: "University of Minnesota Twin Cities",
     duration: "2006 - 2007",
-    description:
+    descriptionList: [
       "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+    ],
   },
+
   {
     id: 3,
     title: "University of Minnesota Twin Cities",
     duration: "2006 - 2007",
-    description:
+    descriptionList: [
       "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+      "Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+    ],
   },
 ];
 

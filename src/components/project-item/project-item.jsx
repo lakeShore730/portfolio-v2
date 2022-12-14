@@ -4,7 +4,7 @@ const ProjectItem = ({ item, className = "", ...others }) => {
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 shadow-md rounded-md hover:shadow-lg",
+        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5",
         className
       )}
       {...others}
@@ -40,6 +40,7 @@ const ProjectItem = ({ item, className = "", ...others }) => {
             target="_blank"
             rel="noreferrer"
             className="mt-[16px] text-[14px] font-medium text-primary"
+            onClick={(e) => e.stopPropagation()}
           >
             {item.link.name}
           </a>
